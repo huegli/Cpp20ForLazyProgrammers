@@ -2,7 +2,7 @@
 cmake_minimum_required(VERSION 3.12)
 
 # Project name and version
-project(cpplazy-ch1 VERSION 1.0)
+project(cpplazy-ch2 VERSION 1.0)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(SDL2 REQUIRED sdl2)
@@ -20,7 +20,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 FILE(GLOB SSDLSources "${PROJECT_SOURCE_DIR}/../SSDL/src/*.cpp")
 
 # Define targets
-set(TLIST hello drawDot bug boxes quotation boxes2)
+set(TLIST beach flamingo sound)
 
 # iterate through all targets
 foreach(T IN ITEMS ${TLIST})

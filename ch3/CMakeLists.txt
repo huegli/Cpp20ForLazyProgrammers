@@ -20,7 +20,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS True)
 FILE(GLOB SSDLSources "${PROJECT_SOURCE_DIR}/../SSDL/src/*.cpp")
 
 # Define targets
-set(TLIST numbers)
+set(TLIST numbers divers star)
 
 # iterate through all targets
 foreach(T IN ITEMS ${TLIST})
